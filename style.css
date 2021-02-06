@@ -1,0 +1,7 @@
+body {
+    display: block;
+}
+.main-header {
+    text-align: right;
+    background-color: gray;
+}
