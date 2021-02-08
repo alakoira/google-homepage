@@ -1,7 +1,114 @@
-body {
-    display: block;
-}
+
+
 .main-header {
-    text-align: right;
-    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    margin-bottom: 10%;
+    align-content: center;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 20px;
+
 }
+a {
+    text-decoration: none;
+    font-size: 13px;
+    color: gray;
+}
+#login {
+    padding: 6px;
+    background-color: cyan;
+}
+
+.body-container-search-bar {
+    background-color: red;
+    
+    min-width: inherit;
+    border:solid;
+    border-width: thin;
+    border-color: gray;
+    border-radius: 50em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#magnifying-icon {
+ width: 20px;
+ height: 20px;
+ display: flex;
+ align-self: center;
+ padding: 5px;
+ opacity: 0.5;
+}
+#search-text-field {
+    display: flex;
+    min-width: 80%;
+    border: none;
+}
+
+#keyboard-icon {
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    background-color: white;
+    width: 100%;
+    
+    
+}
+.body-container-versions {
+    background-color:white;
+    color: black;
+    align-self: center;
+    padding: 20px;
+    font-size: 13px;
+    
+}
+
+.main-footer {
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: gray;
+}
+.footer-container {
+    padding: 10px;
+    border: solid;
+    border-width: thin;
+    border-bottom-width: 0px;
+    background-color: beige;
+}
+.footer-container-lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#google-logo {
+    max-width: 400px;
+    align-self: center;
+    padding: 30px;
+}
+
+.body-container-search-buttons {
+    align-self: center;
+    padding: 20px;
+}
+.google-search-button {
+    border: none;
+    padding: 10px;
+    opacity: 70%;
+    
+}
+
